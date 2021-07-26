@@ -1,0 +1,14 @@
+import 'package:flutter/material.dart';
+
+// the main function is the starting point for all our flutter app
+void main() {
+  runApp(
+    MaterialApp(
+      home: Center(
+        //it centre all the thing on it
+        child: Text('Hello World'),
+        //text control all the font area
+      ),
+    ),
+  );
+}
